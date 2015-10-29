@@ -29,6 +29,16 @@ public class GreederTest {
 		Assert.assertEquals("Hello world", result);
 	}
 	
+	@Test 
+	public void itShouldSayHello2(){
+		
+		 
+		
+		String result = greeter.sayHello("world");
+		
+		Assert.assertEquals("Hello world2", result);
+	}
+	
 	@Test(expected = IllegalArgumentException.class) /* Le test doit réussir lorsqu'il lève cette exception*/
 	public void itShouldRaiseException(){
 		
