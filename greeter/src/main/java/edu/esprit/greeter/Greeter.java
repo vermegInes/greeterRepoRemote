@@ -2,12 +2,11 @@ package edu.esprit.greeter;
 
 public class Greeter {
 	
-<<<<<<< HEAD
+
 	public String var1;
 	
-=======
 	public String var2;
->>>>>>> refs/remotes/origin/master
+
 	/** 
 	 * 
 	 * sayHello method
