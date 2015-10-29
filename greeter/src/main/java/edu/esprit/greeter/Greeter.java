@@ -7,7 +7,7 @@ public class Greeter {
 	
 	public String var2;
 	
-	
+	public String var3;
 	
 
 	/** 
